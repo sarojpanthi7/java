@@ -16,7 +16,7 @@ public class BinarySearch2D {
       int r = 0;
       int c = arr.length - 1;
 
-      while (r < arr.length && c > 0){
+      while (r < arr.length && c >= 0){
           if(target == arr[r][c]){
               return new int[] {r,c};
           }
